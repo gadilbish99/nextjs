@@ -14,8 +14,8 @@ export default function Home() {
           <h1 className="text-3xl font-bold text-blue-400">Hello world!</h1>
           <p className="text-base mt-5">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
+            industry. Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. 
           </p>
         </div>
       </main>
