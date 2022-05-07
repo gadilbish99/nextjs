@@ -36,11 +36,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-10 justify-items-center w-full">
+      <main className="mx-auto p-5 md:p-10 flex justify-center items-center flex-wrap gap-10 max-w-5xl">
         {cards.map(({ id, title, description }) => (
           <div
             key={id}
-            className=" shadow-lg rounded-lg w-96 p-8 bg-white text-center border hover:bg-gray-50 hover:shadow-2xl select-none"
+            className="shadow-lg rounded-lg p-8 bg-white text-center border hover:bg-gray-50 hover:shadow-2xl select-none max-w-sm w-full"
           >
             <h1 className="text-3xl font-bold text-blue-400">{title}</h1>
             <p className="text-base mt-5">{description}</p>
